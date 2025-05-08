@@ -6,8 +6,10 @@ Deploy a Flutter web application to Netlify. Work around Netlify's lack of defau
 
 Specifically:
 
-- Build Command: `if cd flutter; then git pull && cd ..; else git clone https://github.com/flutter/flutter.git; fi && flutter/bin/flutter config --enable-web && flutter/bin/flutter build web --release`
-- Build Directory: `build/web`
+- Build Command:
+  `if cd flutter; then git pull && cd ..; else git clone https://github.com/flutter/flutter.git; fi && flutter/bin/flutter config --enable-web && flutter/bin/flutter build web --release`
+- Build Directory:
+  `build/web`
 
 ## Setup
 
@@ -15,3 +17,7 @@ Specifically:
 - cd directory
 - flutter pub get
 - flutter run -d chrome
+
+# Conclusion
+
+Learn more by reading the [entire blog post](https://loi-tran-blog.netlify.app/blog/flutter-netlify-deploy)
